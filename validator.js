@@ -6,7 +6,7 @@
  * @returns {[boolean, string]} Rezultatas, kur pirmasis parametras reiskia ar buvo rasta klaida, o antrasis - zinute (aprasanti klaida)
  */
 function validator(obj) {
-
+    return [false, 'OK'];
 }
 
 module.exports = validator;
